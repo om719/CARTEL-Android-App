@@ -1,0 +1,48 @@
+package com.example.cartel;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import android.content.Intent;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
+import android.widget.Toast;
+
+public class MainActivity extends AppCompatActivity implements View.OnClickListener{
+
+    private Button actn;
+    private Button advn;
+    private Button pzle;
+    private Button sim;
+    private Button sports;
+    private Button retro;
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+
+        actn=(Button) findViewById(R.id.actionid);
+        advn=(Button) findViewById(R.id.adventureid);
+        pzle=(Button) findViewById(R.id.puzzleid);
+        sim=(Button) findViewById(R.id.simulationid);
+        sports=(Button) findViewById(R.id.sportsid);
+        retro=(Button) findViewById(R.id.retroid);
+
+        actn.setOnClickListener(this);
+        pzle.setOnClickListener(this);
+        advn.setOnClickListener(this);
+        sim.setOnClickListener(this);
+        retro.setOnClickListener(this);
+        sports.setOnClickListener(this);
+
+    }
+
+    @Override
+    public void onClick(View v) {
+
+        Intent newintent= new Intent(MainActivity.this,TypeActivity.class);
+        startActivity(newintent);
+
+
+    }
+}
