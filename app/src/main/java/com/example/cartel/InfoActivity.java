@@ -57,6 +57,22 @@ public class InfoActivity extends AppCompatActivity {
             gamename.setText(name);
 
         }
+        if(name.equals("GTA 5"))
+        {
+            gameimage.setImageDrawable(getResources().getDrawable(R.drawable.armed));
+            gamebio.setText(bio);
+            gameprice.setText(price);
+            gamename.setText(name);
+
+        }
+        if(name.equals("Bloodborne"))
+        {
+            gameimage.setImageDrawable(getResources().getDrawable(R.drawable.blood_poster));
+            gamebio.setText(bio);
+            gameprice.setText(price);
+            gamename.setText(name);
+
+        }
 
     }
 

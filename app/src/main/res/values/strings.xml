@@ -3,4 +3,8 @@
     <string name="header_name">CARTEL</string>
     <string name="Add_Name">Add to Cart</string>
     <string name="Buy_Now">Buy Now</string>
+    <string name="Acreed">Assasins Creed</string>
+    <string name="Witcher3name">Witcher 3</string>
+    <string name="CyberPunkname">CyberPunk 2077</string>
+    <string name="WatchDogsname">Watch Dogs 2</string>
 </resources>

@@ -54,6 +54,22 @@ public class TypeActivity extends AppCompatActivity implements View.OnClickListe
                 godIntent.putExtra("Price","2000");
                 startActivity(godIntent);
                 break;
+
+            case R.id.gtaid:
+                Intent gtaIntent=new Intent(TypeActivity.this, InfoActivity.class);
+                gtaIntent.putExtra("Name","GTA 5");
+                gtaIntent.putExtra("Bio","Grand Theft Auto V is a 2013 action-adventure game developed by Rockstar North and published by Rockstar Games. It is the first main entry in the Grand Theft Auto series since 2008's Grand Theft Auto IV.");
+                gtaIntent.putExtra("Price","1950");
+                startActivity(gtaIntent);
+                break;
+
+            case R.id.bloodborneid:
+                Intent bloodIntent=new Intent(TypeActivity.this, InfoActivity.class);
+                bloodIntent.putExtra("Name","Bloodborne");
+                bloodIntent.putExtra("Bio","Bloodborne is a action role-playing game developed by FromSoftware and published by Sony Computer Entertainment for the PlayStation 4. It was released worldwide in March 2015. Bloodborne follows the player's character, a Hunter, through the decrepit Gothic, Victorian era-inspired city of Yharnam, whose inhabitants have been afflicted with an abnormal blood-borne disease.");
+                bloodIntent.putExtra("Price","1120");
+                startActivity(bloodIntent);
+                break;
         }
 
     }
