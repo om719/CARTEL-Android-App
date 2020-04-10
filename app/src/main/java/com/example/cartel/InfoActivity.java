@@ -74,6 +74,39 @@ public class InfoActivity extends AppCompatActivity {
 
         }
 
+        if(name.equals("Assassin's Creed"))
+        {
+            gameimage.setImageDrawable(getResources().getDrawable(R.drawable.acreed_image));
+            gamebio.setText(bio);
+            gameprice.setText(price);
+            gamename.setText(name);
+
+        }
+        if(name.equals("Watch Dogs 2"))
+        {
+            gameimage.setImageDrawable(getResources().getDrawable(R.drawable.watchdogsimage));
+            gamebio.setText(bio);
+            gameprice.setText(price);
+            gamename.setText(name);
+
+        }
+        if(name.equals("CyberPunk 2077"))
+        {
+            gameimage.setImageDrawable(getResources().getDrawable(R.drawable.cyberpunk));
+            gamebio.setText(bio);
+            gameprice.setText(price);
+            gamename.setText(name);
+
+        }
+        if(name.equals("Witcher-3"))
+        {
+            gameimage.setImageDrawable(getResources().getDrawable(R.drawable.witcher3image));
+            gamebio.setText(bio);
+            gameprice.setText(price);
+            gamename.setText(name);
+
+        }
+
     }
 
 

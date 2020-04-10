@@ -1,10 +1,26 @@
 <resources>
-    <string name="app_name">CARTEL</string>
-    <string name="header_name">CARTEL</string>
+    <string name="app_name">THE CARTEL</string>
+    <string name="header_name">THE CARTEL</string>
     <string name="Add_Name">Add to Cart</string>
     <string name="Buy_Now">Buy Now</string>
-    <string name="Acreed">Assasins Creed</string>
-    <string name="Witcher3name">Witcher 3</string>
-    <string name="CyberPunkname">CyberPunk 2077</string>
-    <string name="WatchDogsname">Watch Dogs 2</string>
+    <string name="WatchDogs2">Watch Dogs 2</string>
+    <string name="Cyberpunk2077">CyberPunk 2077</string>
+    <string name="Acreed">Assassins Creed</string>
+    <string name="Wicther3">Witcher 3: Wild Hunt</string>
+    <string name="GTA5">Grand Theft Auto 5</string>
+    <string name="bloodborne">BloodBorne</string>
+    <string name="GOW">God of War</string>
+    <string name="batman">Batman:Arkham Knight</string>
+    <string name="acImage">ACImage</string>
+    <string name="btImage">BTimage</string>
+    <string name="Gowimage">GOWimage</string>
+    <string name="bbImage">bbimage</string>
+    <string name="gtaimage">gtaimage</string>
+    <string name="wdimage">wdimage</string>
+    <string name="cybImage">cybimage</string>
+    <string name="witImage">witimage</string>
+    <string name="cart">cart</string>
+    <string name="random">TODO</string>
+    <string name="textview">TextView</string>
+
 </resources>

@@ -42,7 +42,7 @@ public class TypeActivity extends AppCompatActivity implements View.OnClickListe
                 Intent batIntent=new Intent(TypeActivity.this, InfoActivity.class);
                 //Toast.makeText(TypeActivity.this,"Batman is pressed",Toast.LENGTH_LONG).show();
                 batIntent.putExtra("Name","Arkham Knight");
-                batIntent.putExtra("Bio","Batman: Arkham Knight is a 2015 action-adventure game developed by Rocksteady Studios and published \n by Warner Bros. Interactive Entertainment. Based on the DC Comics superhero Batman, it is the \n successor to the 2013 video game Batman: Arkham Origins, and the fourth main installment in \n the Batman: Arkham series.");
+                batIntent.putExtra("Bio","Batman: Arkham Knight is a 2015 action-adventure game developed by Rocksteady Studios. Based on the DC Comics superhero Batman, it is the successor to the 2013 video game Batman: Arkham Origins.");
                 batIntent.putExtra("Price","1500");
                 startActivity(batIntent);
                 break;
@@ -50,7 +50,7 @@ public class TypeActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.godofwarid:
                 Intent godIntent=new Intent(TypeActivity.this, InfoActivity.class);
                 godIntent.putExtra("Name","God Of War");
-                godIntent.putExtra("Bio","God of War[a] is an action-adventure game developed by Santa Monica Studio  and published \n by Sony Interactive Entertainment (SIE). Released on April 20, 2018, for the PlayStation 4 (PS4), it \n is the eighth installment in the God of War series, the eighth chronologically, and the \n sequel to 2010's God of War III. ");
+                godIntent.putExtra("Bio","God of War is an action-adventure game developed by Santa Monica Studio. It is the eighth installment in the God of War series, the eighth chronologically, and the sequel to 2010's God of War III.");
                 godIntent.putExtra("Price","2000");
                 startActivity(godIntent);
                 break;
@@ -66,7 +66,7 @@ public class TypeActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.bloodborneid:
                 Intent bloodIntent=new Intent(TypeActivity.this, InfoActivity.class);
                 bloodIntent.putExtra("Name","Bloodborne");
-                bloodIntent.putExtra("Bio","Bloodborne is a action role-playing game developed by FromSoftware and published by Sony Computer Entertainment for the PlayStation 4. It was released worldwide in March 2015. Bloodborne follows the player's character, a Hunter, through the decrepit Gothic, Victorian era-inspired city of Yharnam, whose inhabitants have been afflicted with an abnormal blood-borne disease.");
+                bloodIntent.putExtra("Bio","Bloodborne is a action role-playing game developed by FromSoftware. Bloodborne follows the player's character in Victorian era-inspired city of Yharnam, whose inhabitants have been afflicted with an abnormal blood-borne disease.");
                 bloodIntent.putExtra("Price","1120");
                 startActivity(bloodIntent);
                 break;
