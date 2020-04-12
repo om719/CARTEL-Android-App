@@ -56,6 +56,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.puzzleid:
                 Intent puzzleIntent = new Intent(MainActivity.this,puzzleActivity.class);
                 startActivity(puzzleIntent);
+            case R.id.simulationid:
+                Intent simulationIntent = new Intent(MainActivity.this,SimulationActivity.class);
+                startActivity(simulationIntent);
+            case R.id.sportsid:
+                Intent sportsIntent = new Intent(MainActivity.this,SportsActivity.class);
+                startActivity(sportsIntent);
 
         }
 

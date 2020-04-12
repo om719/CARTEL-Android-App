@@ -10,6 +10,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".RetroActivity"/>
+        <activity android:name=".SimulationActivity"/>
+        <activity android:name=".SportsActivity"/>
         <activity android:name=".puzzleActivity"/>
         <activity android:name=".AdventureActivity"/>
         <activity android:name=".InfoActivity" />

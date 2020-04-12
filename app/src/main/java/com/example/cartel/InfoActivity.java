@@ -173,6 +173,76 @@ public class InfoActivity extends AppCompatActivity {
 
         }
 
+        if(name.equals("Satisfactory"))
+        {
+            gameimage.setImageDrawable(getResources().getDrawable(R.drawable.satisfactory_image));
+            gamebio.setText(bio);
+            gameprice.setText(price);
+            gamename.setText(name);
+
+        }
+        if(name.equals("Flight Simulator"))
+        {
+            gameimage.setImageDrawable(getResources().getDrawable(R.drawable.flight_sim_image));
+            gamebio.setText(bio);
+            gameprice.setText(price);
+            gamename.setText(name);
+
+        }
+        if(name.equals("The Sims"))
+        {
+            gameimage.setImageDrawable(getResources().getDrawable(R.drawable.the_sims_image));
+            gamebio.setText(bio);
+            gameprice.setText(price);
+            gamename.setText(name);
+
+        }
+        if(name.equals("Theme Park"))
+        {
+            gameimage.setImageDrawable(getResources().getDrawable(R.drawable.theme_park_image));
+            gamebio.setText(bio);
+            gameprice.setText(price);
+            gamename.setText(name);
+
+        }
+        if(name.equals("NBA 2k20"))
+        {
+            gameimage.setImageDrawable(getResources().getDrawable(R.drawable.nba2k20image));
+            gamebio.setText(bio);
+            gameprice.setText(price);
+            gamename.setText(name);
+
+        }
+        if(name.equals("FIFA 20"))
+        {
+            gameimage.setImageDrawable(getResources().getDrawable(R.drawable.fifa20image));
+            gamebio.setText(bio);
+            gameprice.setText(price);
+            gamename.setText(name);
+
+        }
+        if(name.equals("Forza Motorsport 7"))
+        {
+            gameimage.setImageDrawable(getResources().getDrawable(R.drawable.motorsport7));
+            gamebio.setText(bio);
+            gameprice.setText(price);
+            gamename.setText(name);
+
+        }
+        if(name.equals("Dirt Rally 2.0"))
+        {
+            gameimage.setImageDrawable(getResources().getDrawable(R.drawable.dirt_rally_image));
+            gamebio.setText(bio);
+            gameprice.setText(price);
+            gamename.setText(name);
+
+        }
+
+
+
+
+
+
 
     }
 

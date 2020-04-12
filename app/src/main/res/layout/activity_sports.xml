@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".puzzleActivity"
+    tools:context=".SportsActivity"
     android:background="@drawable/star1bg">
 
     <TextView
@@ -25,72 +25,72 @@
 
 
     <ImageView
-        android:id="@+id/brotherstaleI"
+        android:id="@+id/nba2k20Image"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_marginStart="28dp"
-        android:contentDescription="@string/brothertale"
+        android:contentDescription="@string/nba2k20desc"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/brotherstalebutton"
+        app:layout_constraintEnd_toStartOf="@+id/nba2k20button"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.231"
-        app:srcCompat="@drawable/brotherstale_image" />
+        app:srcCompat="@drawable/nba2k20image" />
 
     <ImageView
-        android:id="@+id/portal2I"
+        android:id="@+id/fifa20Image"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_marginStart="28dp"
-        android:contentDescription="@string/portalI"
+        android:contentDescription="@string/fifa20desc"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/portal2button"
+        app:layout_constraintEnd_toStartOf="@+id/fifa20button"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.453"
-        app:srcCompat="@drawable/portal2image" />
+        app:srcCompat="@drawable/fifa20image" />
 
 
     <ImageView
-        android:id="@+id/theroomI"
+        android:id="@+id/motorsportImage"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_marginStart="28dp"
         android:layout_marginEnd="21dp"
-        android:contentDescription="@string/RoomImage"
+        android:contentDescription="@string/motorsportdesc"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/theroomButton"
+        app:layout_constraintEnd_toStartOf="@+id/motorsportbutton"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.689"
-        app:srcCompat="@drawable/theroom" />
+        app:srcCompat="@drawable/motorsport7" />
 
 
 
     <ImageView
-        android:id="@+id/wayOutImage"
+        android:id="@+id/dirtrally2Image"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_marginStart="28dp"
-        android:contentDescription="@string/zeldaI"
+        android:contentDescription="@string/dirtRally2desc"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/wayoutbutton"
+        app:layout_constraintEnd_toStartOf="@+id/dirtrally2button"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.909"
-        app:srcCompat="@drawable/awayoutimage" />
+        app:srcCompat="@drawable/dirt_rally_image" />
 
 
     <Button
-        android:id="@+id/brotherstalebutton"
+        android:id="@+id/nba2k20button"
         android:layout_width="247dp"
         android:layout_height="100dp"
         android:background="@drawable/white"
-        android:text="@string/brothertaletext"
+        android:text="@string/nba2k20text"
         android:fontFamily="@font/star_jedi_lala"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -100,13 +100,13 @@
         app:layout_constraintVertical_bias="0.232" />
 
     <Button
-        android:id="@+id/portal2button"
+        android:id="@+id/fifa20button"
         android:layout_width="247dp"
         android:layout_height="100dp"
         android:background="@drawable/white"
-        android:text="@string/portal2text"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:text="@string/fifa20text"
         android:fontFamily="@font/star_jedi_lala"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.902"
         app:layout_constraintStart_toStartOf="parent"
@@ -114,30 +114,30 @@
         app:layout_constraintVertical_bias="0.453" />
 
     <Button
-        android:id="@+id/theroomButton"
+        android:id="@+id/motorsportbutton"
         android:layout_width="247dp"
         android:layout_height="100dp"
         android:background="@drawable/white"
-        android:text="@string/theroomtext"
+        android:fontFamily="@font/star_jedi_lala"
+        android:text="@string/motorsport7text"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:fontFamily="@font/star_jedi_lala"
         app:layout_constraintHorizontal_bias="0.902"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.689" />
 
     <Button
-        android:id="@+id/wayoutbutton"
+        android:id="@+id/dirtrally2button"
         android:layout_width="247dp"
         android:layout_height="100dp"
         android:background="@drawable/white"
-        android:text="@string/wayouttext"
-        android:fontFamily="@font/star_jedi_lala"
+        android:text="@string/dirtRallytext"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.908"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        android:fontFamily="@font/star_jedi_lala"
         app:layout_constraintVertical_bias="0.909" />
 </androidx.constraintlayout.widget.ConstraintLayout>

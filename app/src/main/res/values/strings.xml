@@ -36,8 +36,23 @@
     <string name="portal2text">Portal 2</string>
      <string name="theroomtext">The Room</string>
     <string name="wayouttext">A Way Out</string>
-
-
-
+    <string name="satisfactImage">SatisfacImage</string>
+    <string name="flightsimulatorImage">FlightSimImage</string>
+    <string name="theSimsImage">theSimsImage</string>
+    <string name="themeparkImage">themeparkImage</string>
     <string name="brothertaletext">Brothers:A Tale of Two Sons</string>
+    <string name="satisfactorytext">Satisfactory</string>
+    <string name="flightsimtext">Flight Simulator</string>
+    <string name="theSimstext">The Sims</string>
+    <string name="themeparktext">Theme Park</string>
+    <string name="nba2k20desc">nba2k20Image</string>
+    <string name="fifa20desc">fifa20Image</string>
+    <string name="motorsportdesc">Motorsport7image</string>
+    <string name="dirtRally2desc">DirtRally2Image</string>
+    <string name="nba2k20text">NBA 2k20</string>
+    <string name="fifa20text">FIFA 20</string>
+    <string name="motorsport7text">Forza Motorsport 7</string>
+    <string name="dirtRallytext">Dirt Rally 2.0</string>
+
+
 </resources>
