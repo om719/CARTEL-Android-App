@@ -1,12 +1,10 @@
 package com.example.cartel;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import org.w3c.dom.Text;
+import androidx.appcompat.app.AppCompatActivity;
 
 public class InfoActivity extends AppCompatActivity {
 
@@ -106,6 +104,75 @@ public class InfoActivity extends AppCompatActivity {
             gamename.setText(name);
 
         }
+        if(name.equals("Super Mario Bros"))
+        {
+            gameimage.setImageDrawable(getResources().getDrawable(R.drawable.nes_supermariobros));
+            gamebio.setText(bio);
+            gameprice.setText(price);
+            gamename.setText(name);
+
+        }
+        if(name.equals("Donkey Kong"))
+        {
+            gameimage.setImageDrawable(getResources().getDrawable(R.drawable.gb_donkeykong1));
+            gamebio.setText(bio);
+            gameprice.setText(price);
+            gamename.setText(name);
+
+        }
+        if(name.equals("Sonic The Hedgehog"))
+        {
+            gameimage.setImageDrawable(getResources().getDrawable(R.drawable.genesis_sonicthehedgehog));
+            gamebio.setText(bio);
+            gameprice.setText(price);
+            gamename.setText(name);
+
+        }
+        if(name.equals("Legend Of Zelda"))
+        {
+            gameimage.setImageDrawable(getResources().getDrawable(R.drawable.legend_of_zelda_image));
+            gamebio.setText(bio);
+            gameprice.setText(price);
+            gamename.setText(name);
+
+        }
+
+        if(name.equals("Brothers"))
+        {
+            gameimage.setImageDrawable(getResources().getDrawable(R.drawable.brotherstale_image));
+            gamebio.setText(bio);
+            gameprice.setText(price);
+            gamename.setText(name);
+
+        }
+
+        if(name.equals("Portal 2"))
+        {
+            gameimage.setImageDrawable(getResources().getDrawable(R.drawable.portal2image));
+            gamebio.setText(bio);
+            gameprice.setText(price);
+            gamename.setText(name);
+
+        }
+
+        if(name.equals("The Room"))
+        {
+            gameimage.setImageDrawable(getResources().getDrawable(R.drawable.theroom));
+            gamebio.setText(bio);
+            gameprice.setText(price);
+            gamename.setText(name);
+
+        }
+
+        if(name.equals("A Way Out"))
+        {
+            gameimage.setImageDrawable(getResources().getDrawable(R.drawable.awayoutimage));
+            gamebio.setText(bio);
+            gameprice.setText(price);
+            gamename.setText(name);
+
+        }
+
 
     }
 

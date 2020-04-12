@@ -9,6 +9,8 @@
         android:roundIcon="@mipmap/star_wars_the_cartel_theme"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".RetroActivity"/>
+        <activity android:name=".puzzleActivity"/>
         <activity android:name=".AdventureActivity"/>
         <activity android:name=".InfoActivity" />
         <activity android:name=".TypeActivity" />

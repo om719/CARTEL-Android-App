@@ -49,6 +49,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 Intent adIntent=new Intent(MainActivity.this,AdventureActivity.class);
                 startActivity(adIntent);
                 break;
+            case R.id.retroid:
+                Intent retroIntent = new Intent(MainActivity.this,RetroActivity.class);
+                startActivity(retroIntent);
+
+            case R.id.puzzleid:
+                Intent puzzleIntent = new Intent(MainActivity.this,puzzleActivity.class);
+                startActivity(puzzleIntent);
 
         }
 

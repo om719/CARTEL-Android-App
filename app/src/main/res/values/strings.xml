@@ -22,5 +22,22 @@
     <string name="cart">cart</string>
     <string name="random">TODO</string>
     <string name="textview">TextView</string>
+    <string name="supermarioI">SuperMarioImage</string>
+    <string name="donkeykongI">DonkeyKongImage</string>
+    <string name="sonicI">SonicImage</string>
+    <string name="Donkey_Kong">Donkey Kong</string>
+    <string name="zeldaI">ZeldaImage</string>
+    <string name="SONIC">Sonic The Hedgehog</string>
+    <string name="SuperMARIO">Super Mario Bros</string>
+    <string name="LEGENDOFZELDA">THE LEGEND OF ZELDA</string>
+    <string name="brothertale">BrothersImage</string>
+    <string name="portalI">PortalImage</string>
+    <string name="RoomImage">TheRoomImage</string>
+    <string name="portal2text">Portal 2</string>
+     <string name="theroomtext">The Room</string>
+    <string name="wayouttext">A Way Out</string>
 
+
+
+    <string name="brothertaletext">Brothers:A Tale of Two Sons</string>
 </resources>
