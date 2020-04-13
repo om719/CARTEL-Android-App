@@ -1,4 +1,4 @@
-package com.example.cartel;
+package com.example420.cartel;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -6,7 +6,6 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
 
@@ -52,16 +51,20 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.retroid:
                 Intent retroIntent = new Intent(MainActivity.this,RetroActivity.class);
                 startActivity(retroIntent);
+                break;
 
             case R.id.puzzleid:
                 Intent puzzleIntent = new Intent(MainActivity.this,puzzleActivity.class);
                 startActivity(puzzleIntent);
+                break;
             case R.id.simulationid:
                 Intent simulationIntent = new Intent(MainActivity.this,SimulationActivity.class);
                 startActivity(simulationIntent);
+                break;
             case R.id.sportsid:
                 Intent sportsIntent = new Intent(MainActivity.this,SportsActivity.class);
                 startActivity(sportsIntent);
+                break;
 
         }
 

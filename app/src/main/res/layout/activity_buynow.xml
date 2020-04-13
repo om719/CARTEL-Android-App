@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/star1bg"
+    tools:context=".Buynow">
+
+    <TextView
+        android:id="@+id/HEadingid2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:fontFamily="@font/star_jedi_lala"
+        android:text="@string/header_name"
+        android:textColor="#FFEB3B"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/reciclerviewid"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.060000002" />
+
+    <EditText
+        android:id="@+id/carddetailsid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:fontFamily="@font/star_jedi_lala"
+        android:hint="Enter the card number"
+        android:inputType="textPersonName"
+        android:textColor="#2196F3"
+        android:textColorHint="#2196F3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.429"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/HEadingid2"
+        app:layout_constraintVertical_bias="0.44" />
+
+    <TextView
+        android:id="@+id/nametagid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/star_jedi_lala"
+        android:textColor="#2196F3"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.586"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/HEadingid2"
+        app:layout_constraintVertical_bias="0.139" />
+
+    <TextView
+        android:id="@+id/Priceibuyd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/star_jedi_lala"
+        android:text="Price"
+        android:textColor="#F44336"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.121"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/HEadingid2"
+        app:layout_constraintVertical_bias="0.248" />
+
+    <TextView
+        android:id="@+id/pricetagid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/star_jedi_lala"
+        android:textColor="#2196F3"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.586"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/HEadingid2"
+        app:layout_constraintVertical_bias="0.248" />
+
+    <EditText
+        android:id="@+id/expiryid"
+        android:layout_width="89dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="53dp"
+        android:ems="10"
+        android:fontFamily="@font/star_jedi_lala"
+        android:hint="mm/yy"
+        android:inputType="date"
+        android:textColor="#2196F3"
+        android:textColorHint="#2196F3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/cvvid"
+        app:layout_constraintHorizontal_bias="0.452"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/carddetailsid"
+        app:layout_constraintVertical_bias="0.02" />
+
+    <Button
+        android:id="@+id/paynowid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pay Now"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.458"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/carddetailsid"
+        app:layout_constraintVertical_bias="0.623" />
+
+    <EditText
+        android:id="@+id/cvvid"
+        android:layout_width="60dp"
+        android:layout_height="49dp"
+        android:ems="10"
+        android:fontFamily="@font/star_jedi_lala"
+        android:hint="CVV"
+        android:inputType="textPersonName"
+        android:textColor="#2196F3"
+        android:textColorHint="#2196F3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.7"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/carddetailsid"
+        app:layout_constraintVertical_bias="0.217" />
+
+    <EditText
+        android:id="@+id/countdetailsid"
+        android:layout_width="162dp"
+        android:layout_height="43dp"
+        android:ems="10"
+        android:fontFamily="@font/star_jedi_lala"
+        android:hint="No. of items"
+        android:inputType="textShortMessage"
+        android:textColor="#03A9F4"
+        android:textColorHint="#2196F3"
+        app:layout_constraintBottom_toTopOf="@+id/carddetailsid"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.59"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Priceibuyd" />
+
+    <TextView
+        android:id="@+id/Namebuyid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/star_jedi_lala"
+        android:text="Name"
+        android:textColor="#F44336"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.119"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/HEadingid2"
+        app:layout_constraintVertical_bias="0.139" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/star_jedi_lala"
+        android:text="No."
+        android:textColor="#F44336"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@+id/carddetailsid"
+        app:layout_constraintEnd_toStartOf="@+id/countdetailsid"
+        app:layout_constraintHorizontal_bias="0.38"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/Priceibuyd"
+        app:layout_constraintVertical_bias="0.69" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

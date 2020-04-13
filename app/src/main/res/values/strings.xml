@@ -34,7 +34,7 @@
     <string name="portalI">PortalImage</string>
     <string name="RoomImage">TheRoomImage</string>
     <string name="portal2text">Portal 2</string>
-     <string name="theroomtext">The Room</string>
+    <string name="theroomtext">The Room</string>
     <string name="wayouttext">A Way Out</string>
     <string name="satisfactImage">SatisfacImage</string>
     <string name="flightsimulatorImage">FlightSimImage</string>

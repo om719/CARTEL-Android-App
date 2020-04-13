@@ -1,4 +1,4 @@
-package com.example.cartel;
+package com.example420.cartel;
 
 import android.content.DialogInterface;
 import android.content.Intent;
