@@ -22,18 +22,18 @@ Button logout,sell,buy;
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sellbuy);
-        buy = (Button) findViewById( R.id.logout);
+        buy = (Button) findViewById( R.id.buy);
         sell=findViewById(R.id.sellbutton);
-       // buy=(Button)findViewById(R.id.buybutton);
-       /* logout.setOnClickListener( new View.OnClickListener() {
+       logout=(Button)findViewById(R.id.logout);
+       logout.setOnClickListener( new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 FirebaseAuth.getInstance().signOut();
                 Intent i = new Intent(
-                        sellbuy.this,MainActivity.class);
+                        sellbuy.this,MainActivity_ad.class);
                 startActivity( i );
             }
-        } );*/
+        } );
         /*Intent i= new Intent(sellbuy.this,MainActivity.class);
         startActivity(i);*/
         buy.setOnClickListener(new View.OnClickListener() {
