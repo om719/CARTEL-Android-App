@@ -16,18 +16,18 @@
         <activity android:name=".AdventureActivity"/>
         <activity android:name=".InfoActivity" />
         <activity android:name=".TypeActivity" />
-        <activity android:name=".Forgotpwd" />
-        <activity android:name=".SellBuy" />
-        <activity android:name=".LoginActivity" />
+        <activity android:name=".MainActivity"/>
+        <activity android:name=".forgotpwd" />
+        <activity android:name=".sellbuy" />
+        <activity android:name=".activity_login" />
         <activity android:name=".MainActivity_ad"/>
-        <activity android:name=".SplashScreen">
+        <activity android:name=".splashscreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity"/>
 
 
     </application>

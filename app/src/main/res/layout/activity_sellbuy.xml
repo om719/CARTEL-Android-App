@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/star1bg"
+    android:orientation="vertical"
+    tools:context=".sellbuy">
+
+    <Button
+        android:id="@+id/sellbutton"
+        android:layout_width="175sp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="300sp"
+        android:layout_marginTop="250sp"
+        android:layout_marginLeft="120sp"
+        android:text="SELL" />
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="175sp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="300sp"
+        android:layout_marginTop="350sp"
+        android:layout_marginLeft="120sp"
+        android:text="BUY" />
+
+    <TextView
+        android:id="@+id/splash"
+        android:layout_width="175sp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="300sp"
+        android:layout_marginTop="30sp"
+        android:layout_marginLeft="120sp"
+        android:text="@string/header_name"
+        android:textSize="30sp"
+        android:fontFamily="@font/star_jedi_lala"
+        android:textColor="@color/yellow"
+        android:textAlignment="center"></TextView>
+
+</RelativeLayout>

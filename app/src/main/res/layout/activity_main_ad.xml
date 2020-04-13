@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/star1bg"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/splash"
+        android:layout_width="175sp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="300sp"
+        android:layout_marginTop="30sp"
+        android:layout_marginLeft="120sp"
+        android:text="@string/header_name"
+        android:textSize="30sp"
+        android:fontFamily="@font/star_jedi_lala"
+        android:textColor="@color/yellow"
+        android:textAlignment="center"></TextView>
+
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="175sp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="300sp"
+        android:layout_marginTop="300sp"
+        android:layout_marginLeft="120sp"
+        android:text="Register" />
+
+    <EditText
+        android:id="@+id/emailreg"
+        android:layout_width="200sp"
+        android:layout_height="40sp"
+        android:layout_marginLeft="120sp"
+
+        android:layout_marginTop="200sp"
+        android:layout_marginBottom="350sp"
+        android:background="@color/yellow"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/pwdreg"
+        android:layout_width="200sp"
+        android:layout_height="40sp"
+        android:layout_marginBottom="300sp"
+        android:background="@color/yellow"
+        android:layout_marginTop="250sp"
+        android:layout_marginLeft="120sp"
+        android:ems="10"
+        android:hint="Password"
+
+        android:inputType="textPassword" />
+
+    <TextView
+        android:id="@+id/login"
+        android:layout_width="305sp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="90sp"
+        android:layout_marginTop="400sp"
+        android:layout_marginBottom="300sp"
+        android:text="Already a member? Click here to log in"
+        android:textColor="@color/yellow" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="235sp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="300sp"
+        android:layout_marginTop="150sp"
+        android:layout_marginLeft="110sp"
+        android:textColor="@color/yellow"
+        android:textSize="17sp"
+        android:textAlignment="center"
+        android:text="NEW USERS REGISTER HERE!" />
+
+
+</RelativeLayout>
