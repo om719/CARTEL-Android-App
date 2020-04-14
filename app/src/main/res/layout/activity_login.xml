@@ -27,17 +27,17 @@
         android:layout_width="175sp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="300sp"
-        android:layout_marginTop="280sp"
+        android:layout_marginTop="310sp"
         android:layout_marginLeft="120sp"
         android:text="LOG IN" />
 
     <EditText
         android:id="@+id/email"
-        android:layout_width="175sp"
-        android:layout_height="wrap_content"
+        android:layout_width="255sp"
+        android:layout_height="50sp"
         android:layout_marginBottom="350sp"
         android:layout_marginTop="180sp"
-        android:layout_marginLeft="120sp"
+        android:layout_marginLeft="80sp"
         android:background="@color/yellow"
         android:ems="10"
         android:hint="Email"
@@ -45,11 +45,11 @@
 
     <EditText
         android:id="@+id/password"
-        android:layout_width="175sp"
-        android:layout_height="wrap_content"
+        android:layout_width="255sp"
+        android:layout_height="50sp"
         android:layout_marginBottom="300sp"
-        android:layout_marginTop="230sp"
-        android:layout_marginLeft="120sp"
+        android:layout_marginTop="250sp"
+        android:layout_marginLeft="80sp"
         android:background="@color/yellow"
         android:ems="10"
         android:hint="Password"
@@ -72,7 +72,7 @@
         android:layout_width="250sp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="300sp"
-        android:layout_marginTop="350sp"
+        android:layout_marginTop="370sp"
         android:layout_marginLeft="100sp"
         android:textColor="@color/yellow"
         android:text="Not a member? Click here to register" />
@@ -82,7 +82,7 @@
         android:layout_width="250sp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="300sp"
-        android:layout_marginTop="400sp"
+        android:layout_marginTop="420sp"
         android:layout_marginLeft="100sp"
         android:textColor="@color/yellow"
         android:text="Forgot password? click here to reset" />

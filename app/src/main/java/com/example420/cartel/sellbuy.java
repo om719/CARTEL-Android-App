@@ -6,16 +6,21 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.FirebaseAuth;
 
 //import android.support.v7.app.AppCompatActivity;
 
 public class sellbuy extends AppCompatActivity {
-Button logout,sell,buy;
+Button logout,sell,buy,delete;
+
     private FirebaseAuth.AuthStateListener mAuthstateListener;
     FirebaseAuth mFirebaseAuth;
     @Override
@@ -24,7 +29,51 @@ Button logout,sell,buy;
         setContentView(R.layout.activity_sellbuy);
         buy = (Button) findViewById( R.id.buy);
         sell=findViewById(R.id.sellbutton);
-       logout=(Button)findViewById(R.id.logout);
+        logout=(Button)findViewById(R.id.logout);
+       // delete=findViewById(R.id.delete);
+
+
+/*
+        delete.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                 AlertDialog.Builder del=new AlertDialog.Builder(sellbuy.this);
+                 del.setTitle("Delete Account");
+                 del.setMessage("Selecting delete will permanently delete your account");
+                 del.setPositiveButton("Delete", new DialogInterface.OnClickListener() {
+                     @Override
+                     public void onClick(DialogInterface dialog, int which) {
+                        mFirebaseAuth.getCurrentUser().delete().addOnCompleteListener(new OnCompleteListener<Void>() {
+                            @Override
+                            public void onComplete(@NonNull Task<Void> task) {
+                                if(task.isSuccessful())
+                                {
+                                    Intent i = new Intent(
+                                            sellbuy.this,MainActivity_ad.class);
+                                    startActivity( i );
+                                    Toast.makeText(sellbuy.this, "your account has been deleted", Toast.LENGTH_SHORT).show();
+                                }
+                                else
+                                {
+                                    Toast.makeText(sellbuy.this, task.getException().getMessage(), Toast.LENGTH_SHORT).show();
+                                }
+                            }
+                        });
+                     }
+                 });
+
+                 del.setNegativeButton("Dismiss", new DialogInterface.OnClickListener() {
+                     @Override
+                     public void onClick(DialogInterface dialog, int which) {
+                         dialog.dismiss();
+                     }
+                 });
+                 AlertDialog alert=del.create();
+                 alert.show();
+            }
+        });*/
+
+
        logout.setOnClickListener( new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -34,8 +83,7 @@ Button logout,sell,buy;
                 startActivity( i );
             }
         } );
-        /*Intent i= new Intent(sellbuy.this,MainActivity.class);
-        startActivity(i);*/
+
         buy.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -43,6 +91,8 @@ Button logout,sell,buy;
                 startActivity(i);
             }
         });
+
+
         sell.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

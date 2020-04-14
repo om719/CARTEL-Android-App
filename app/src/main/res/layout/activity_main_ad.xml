@@ -10,7 +10,7 @@
 
     <TextView
         android:id="@+id/splash"
-        android:layout_width="175sp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="300sp"
         android:layout_marginTop="30sp"
@@ -33,9 +33,9 @@
 
     <EditText
         android:id="@+id/emailreg"
-        android:layout_width="200sp"
+        android:layout_width="255sp"
         android:layout_height="40sp"
-        android:layout_marginLeft="120sp"
+        android:layout_marginLeft="80sp"
 
         android:layout_marginTop="200sp"
         android:layout_marginBottom="350sp"
@@ -46,12 +46,12 @@
 
     <EditText
         android:id="@+id/pwdreg"
-        android:layout_width="200sp"
+        android:layout_width="255sp"
         android:layout_height="40sp"
         android:layout_marginBottom="300sp"
         android:background="@color/yellow"
         android:layout_marginTop="250sp"
-        android:layout_marginLeft="120sp"
+        android:layout_marginLeft="80sp"
         android:ems="10"
         android:hint="Password"
 
@@ -73,7 +73,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="300sp"
         android:layout_marginTop="150sp"
-        android:layout_marginLeft="110sp"
+        android:layout_marginLeft="90sp"
         android:textColor="@color/yellow"
         android:textSize="17sp"
         android:textAlignment="center"

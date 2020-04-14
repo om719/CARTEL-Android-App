@@ -9,15 +9,12 @@
 
     <TextView
         android:id="@+id/splash"
-        android:layout_width="175sp"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="300sp"
-        android:layout_marginTop="300sp"
-        android:layout_marginLeft="120sp"
-        android:text="@string/header_name"
-        android:textSize="30sp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:fontFamily="@font/star_jedi_lala"
-        android:textColor="@color/yellow"
+        android:text="@string/header_name"
         android:textAlignment="center"
-      />
+        android:textColor="@color/yellow"
+        android:layout_marginTop="210sp"
+        android:textSize="64sp"/>
 </RelativeLayout>

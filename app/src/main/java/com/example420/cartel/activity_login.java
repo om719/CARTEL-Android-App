@@ -49,7 +49,7 @@ public class activity_login extends AppCompatActivity {
                 }
                 else
                 {
-                    Toast.makeText(activity_login.this, "please log in", Toast.LENGTH_SHORT).show();
+                   // Toast.makeText(activity_login.this, "please log in", Toast.LENGTH_SHORT).show();
                 }
             }
         };
