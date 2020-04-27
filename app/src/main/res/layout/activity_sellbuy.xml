@@ -35,14 +35,14 @@
         android:layout_marginLeft="120sp"
         android:text="LOGOUT" />
 
-  <!--  <Button
-        android:id="@+id/delete"
+  <Button
+        android:id="@+id/indie"
         android:layout_width="175sp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="300sp"
         android:layout_marginTop="550sp"
         android:layout_marginLeft="120sp"
-        android:text="DELETE ACCOUNT" />-->
+        android:text="CARTEL INDIE" />
 
     <TextView
         android:id="@+id/splash"

@@ -19,7 +19,7 @@ import com.google.firebase.auth.FirebaseAuth;
 //import android.support.v7.app.AppCompatActivity;
 
 public class sellbuy extends AppCompatActivity {
-Button logout,sell,buy,delete;
+Button logout,sell,buy,indie;
 
     private FirebaseAuth.AuthStateListener mAuthstateListener;
     FirebaseAuth mFirebaseAuth;
@@ -30,6 +30,7 @@ Button logout,sell,buy,delete;
         buy = (Button) findViewById( R.id.buy);
         sell=findViewById(R.id.sellbutton);
         logout=(Button)findViewById(R.id.logout);
+        indie=findViewById(R.id.indie);
        // delete=findViewById(R.id.delete);
 
 
@@ -120,5 +121,15 @@ Button logout,sell,buy,delete;
                 builder.show();
             }
         });
+
+        indie.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i=new Intent(sellbuy.this,CartelIndie.class);
+                startActivity(i);
+            }
+        });
+
+
     }
 }
