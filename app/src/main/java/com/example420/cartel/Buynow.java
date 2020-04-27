@@ -2,6 +2,8 @@ package com.example420.cartel;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.ComponentName;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -32,6 +34,7 @@ public class Buynow extends AppCompatActivity {
         expiry=(EditText) findViewById(R.id.expiryid);
         count=(EditText) findViewById(R.id.countdetailsid);
         pr=(TextView) findViewById(R.id.Priceibuyd);
+        paynow=(Button) findViewById(R.id.paynowid);
         String price=" ";
         String x=" ";
         if(extras!=null)
@@ -56,6 +59,16 @@ public class Buynow extends AppCompatActivity {
             }
         });
 
+
+
+//        paynow.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Intent intent = new Intent(Intent.ACTION_MAIN);
+//                intent.setComponent(new ComponentName("com.example.downloadmanager","com.example.downloadmanager.MainActivity"));
+//                startActivity(intent);
+//            }
+//        });
 
 
     }

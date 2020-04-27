@@ -10,7 +10,7 @@
     <androidx.viewpager.widget.ViewPager
         android:id="@+id/slideViewPager"
         android:layout_width="match_parent"
-        android:layout_height="670dp">
+        android:layout_height="652dp">
 
 
     </androidx.viewpager.widget.ViewPager>
@@ -25,8 +25,13 @@
         android:id="@+id/buy"
         android:layout_width="300sp"
         android:layout_height="wrap_content"
+        android:layout_below="@+id/slideViewPager"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="54dp"
         android:layout_marginLeft="50dp"
-        android:layout_marginTop="670dp"
+        android:layout_marginTop="17dp"
+        android:layout_marginEnd="56dp"
         android:background="@android:color/holo_orange_light"
         android:text="BUY CARTEL INDI FOR RS 100" />
 

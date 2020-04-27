@@ -2,6 +2,7 @@ package com.example420.cartel;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.ComponentName;
 import android.content.Context;
 import android.content.Intent;
 import android.net.ConnectivityManager;
@@ -151,6 +152,9 @@ public class Gpay extends AppCompatActivity {
                 //Code to handle successful transaction here.
                 Toast.makeText(Gpay.this, "Transaction successful.", Toast.LENGTH_SHORT).show();
                 Log.e("UPI", "payment successfull: "+approvalRefNo);
+                Intent intent = new Intent(Intent.ACTION_MAIN);
+                intent.setComponent(new ComponentName("com.example.downloadmanager","com.example.downloadmanager.MainActivity"));
+                startActivity(intent);
             }
             else if("Payment cancelled by user.".equals(paymentCancel)) {
                 Toast.makeText(Gpay.this, "Payment cancelled by user.", Toast.LENGTH_SHORT).show();
