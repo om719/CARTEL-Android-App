@@ -17,4 +17,13 @@
         android:textColor="@color/yellow"
         android:layout_marginTop="210sp"
         android:textSize="64sp"/>
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="155sp"
+        android:layout_marginTop="670dp"
+        android:textColor="@android:color/white"
+        android:text="Shashank L \nOm Shreenidhi \nAditi HK" />
 </RelativeLayout>

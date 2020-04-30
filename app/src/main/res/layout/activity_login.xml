@@ -24,12 +24,14 @@
 
     <Button
         android:id="@+id/login"
-        android:layout_width="175sp"
-        android:layout_height="wrap_content"
         android:layout_marginBottom="300sp"
-        android:layout_marginTop="310sp"
-        android:layout_marginLeft="120sp"
-        android:text="LOG IN" />
+        android:layout_marginTop="330sp"
+        android:text="LOG IN"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="53dp"
+        android:background="@android:color/holo_orange_light"/>
 
     <EditText
         android:id="@+id/email"
@@ -72,7 +74,7 @@
         android:layout_width="250sp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="300sp"
-        android:layout_marginTop="370sp"
+        android:layout_marginTop="390sp"
         android:layout_marginLeft="100sp"
         android:textColor="@color/yellow"
         android:text="Not a member? Click here to register" />
@@ -81,8 +83,8 @@
         android:id="@+id/forgotpwd"
         android:layout_width="250sp"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="300sp"
-        android:layout_marginTop="420sp"
+
+        android:layout_marginTop="440sp"
         android:layout_marginLeft="100sp"
         android:textColor="@color/yellow"
         android:text="Forgot password? click here to reset" />

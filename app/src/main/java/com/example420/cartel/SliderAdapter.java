@@ -1,3 +1,4 @@
+
 package com.example420.cartel;
 
 import android.content.Context;
@@ -20,24 +21,22 @@ public class SliderAdapter extends PagerAdapter {
     }
 
     public int[] images={
-            R.drawable.game1sf,
-            R.drawable.game2rb,
-            R.drawable.game3ar,
-            R.drawable.game4r
+            R.drawable.spacevr,
+            R.drawable.spaceshooter
     };
 
     public String[] headings={
-            "SCUDERIA FERRARI",
-            "REDBULL RACING",
-            "ALFA ROMEO",
-            "RENAULT"
+            "SPACE SETTELMENT WALKTHROUGH-VR",
+            "SPACE SHOOTER",
+
     };
 
     public String[] desc={
-            "Lorem ipsum dolor sit amet, tale elit ipsum has an. Facete explicari mel an, simul impetus in duo. Per te persius mnesarchum. No modus habemus invidunt duo, ad autem simul periculis eos.",
-            "Lorem ipsum dolor sit amet, tale elit ipsum has an. Facete explicari mel an, simul impetus in duo. Per te persius mnesarchum. No modus habemus invidunt duo, ad autem simul periculis eos.",
-            "Lorem ipsum dolor sit amet, tale elit ipsum has an. Facete explicari mel an, simul impetus in duo. Per te persius mnesarchum. No modus habemus invidunt duo, ad autem simul periculis eos.",
-            "Lorem ipsum dolor sit amet, tale elit ipsum has an. Facete explicari mel an, simul impetus in duo. Per te persius mnesarchum. No modus habemus invidunt duo, ad autem simul periculis eos."
+            "Indulge into a futuristic walkthrough into a Settlement on the moon.\n" +
+                    "Never seen before, witness the future through VR.\\n\\n\n" +
+                    "Developed by Shashank Lokesh.",
+            "Fight through a swarm of aliens for galactic justice. \n" +
+                    "A first person shooter never seen before. Coming soon on Android"
     };
     @Override
     public int getCount() {

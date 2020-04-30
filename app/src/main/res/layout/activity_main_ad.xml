@@ -24,12 +24,14 @@
 
     <Button
         android:id="@+id/register"
-        android:layout_width="175sp"
-        android:layout_height="wrap_content"
         android:layout_marginBottom="300sp"
-        android:layout_marginTop="300sp"
-        android:layout_marginLeft="120sp"
-        android:text="Register" />
+        android:layout_marginTop="330sp"
+        android:text="Register"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="53dp"
+        android:background="@android:color/holo_orange_light"/>
 
     <EditText
         android:id="@+id/emailreg"

@@ -21,7 +21,7 @@ public class CartelIndie extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_cartel_indie);
         mvp = findViewById(R.id.slideViewPager);
-        mll = findViewById(R.id.dots);
+        //mll = findViewById(R.id.dots);
 
         sliderAdapter = new SliderAdapter(this);
         mvp.setAdapter(sliderAdapter);

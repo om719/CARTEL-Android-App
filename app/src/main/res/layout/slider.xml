@@ -3,27 +3,25 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent" android:layout_height="match_parent">
 
+
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="120dp"
-        android:layout_marginLeft="40dp"
-        android:layout_marginRight="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="346dp"
+        android:layout_marginTop="180dp"
         android:layout_marginBottom="300sp"
-        app:srcCompat="@drawable/game1sf" />
+        app:srcCompat="@drawable/spacevr" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="70dp"
-
-        android:text="SCUDERIA FERRARI"
+        android:layout_marginTop="90dp"
+        android:textStyle="bold"
+        android:text="SPACE SETTLEMENT WALKTHROUGH-VR"
         android:textFontWeight="@android:integer/config_longAnimTime"
         android:textAlignment="center"
-
-        android:textColor="@android:color/holo_orange_dark"
+        android:textColor="#FFE600"
         android:textSize="25dp"
         android:gravity="center_horizontal" />
 
@@ -31,8 +29,10 @@
         android:id="@+id/textView2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="500dp"
-        android:text="Lorem ipsum dolor sit amet, tale elit ipsum has an. Facete explicari mel an, simul impetus in duo. Per te persius mnesarchum. No modus habemus invidunt duo, ad autem simul periculis eos."
-        android:textColor="@android:color/holo_orange_light"
+        android:layout_marginTop="450dp"
+        android:text="Indulge into a futuristic walkthrough into a Settlement on the moon.
+Never seen before, witness the future through VR.\n\n
+Developed by Shashank Lokesh."
+        android:textColor="#FFE600"
         android:textSize="18sp" />
 </RelativeLayout>
